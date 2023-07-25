@@ -11,6 +11,12 @@
 		DC573A562A6583F300EEF758 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A552A6583F300EEF758 /* ContentView.swift */; };
 		DC573A582A6583F400EEF758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC573A572A6583F400EEF758 /* Assets.xcassets */; };
 		DC573A5B2A6583F400EEF758 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC573A5A2A6583F400EEF758 /* Preview Assets.xcassets */; };
+		DC573A622A65840E00EEF758 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A612A65840E00EEF758 /* ListView.swift */; };
+		DC573A642A65857400EEF758 /* CameraViewHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A632A65857400EEF758 /* CameraViewHands.swift */; };
+		DC573A662A65858B00EEF758 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A652A65858B00EEF758 /* CameraView.swift */; };
+		DC573A6A2A659FCF00EEF758 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC573A692A659FCF00EEF758 /* Launch Screen.storyboard */; };
+		DC573A6C2A65B39F00EEF758 /* CameraViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A6B2A65B39F00EEF758 /* CameraViewWrapper.swift */; };
+		DC573A6F2A69705A00EEF758 /* CameraViewHandsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC573A6E2A69705A00EEF758 /* CameraViewHandsWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,13 @@
 		DC573A552A6583F300EEF758 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC573A572A6583F400EEF758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC573A5A2A6583F400EEF758 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC573A612A65840E00EEF758 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		DC573A632A65857400EEF758 /* CameraViewHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewHands.swift; sourceTree = "<group>"; };
+		DC573A652A65858B00EEF758 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		DC573A692A659FCF00EEF758 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DC573A6B2A65B39F00EEF758 /* CameraViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewWrapper.swift; sourceTree = "<group>"; };
+		DC573A6D2A65CC7C00EEF758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC573A6E2A69705A00EEF758 /* CameraViewHandsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewHandsWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +64,15 @@
 		DC573A522A6583F300EEF758 /* multiCameraView */ = {
 			isa = PBXGroup;
 			children = (
+				DC573A6D2A65CC7C00EEF758 /* Info.plist */,
+				DC573A692A659FCF00EEF758 /* Launch Screen.storyboard */,
 				DC573A532A6583F300EEF758 /* multiCameraViewApp.swift */,
 				DC573A552A6583F300EEF758 /* ContentView.swift */,
+				DC573A6E2A69705A00EEF758 /* CameraViewHandsWrapper.swift */,
+				DC573A612A65840E00EEF758 /* ListView.swift */,
+				DC573A632A65857400EEF758 /* CameraViewHands.swift */,
+				DC573A6B2A65B39F00EEF758 /* CameraViewWrapper.swift */,
+				DC573A652A65858B00EEF758 /* CameraView.swift */,
 				DC573A572A6583F400EEF758 /* Assets.xcassets */,
 				DC573A592A6583F400EEF758 /* Preview Content */,
 			);
@@ -127,6 +147,7 @@
 			files = (
 				DC573A5B2A6583F400EEF758 /* Preview Assets.xcassets in Resources */,
 				DC573A582A6583F400EEF758 /* Assets.xcassets in Resources */,
+				DC573A6A2A659FCF00EEF758 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC573A6C2A65B39F00EEF758 /* CameraViewWrapper.swift in Sources */,
 				DC573A562A6583F300EEF758 /* ContentView.swift in Sources */,
 				DC573A542A6583F300EEF758 /* multiCameraViewApp.swift in Sources */,
+				DC573A662A65858B00EEF758 /* CameraView.swift in Sources */,
+				DC573A642A65857400EEF758 /* CameraViewHands.swift in Sources */,
+				DC573A622A65840E00EEF758 /* ListView.swift in Sources */,
+				DC573A6F2A69705A00EEF758 /* CameraViewHandsWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +301,10 @@
 				DEVELOPMENT_TEAM = C3WQW25FH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = multiCameraView/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access the camera ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Store videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +334,10 @@
 				DEVELOPMENT_TEAM = C3WQW25FH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = multiCameraView/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Access the camera ";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Access the microphone";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Store videos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
